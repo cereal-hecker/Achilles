@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&family=Montserrat&family=Rubik&display=swap');
+
+
+.section-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 3.5rem;
+}
+
+
+/* Navbar */
+
+.navbar{
+    padding: 2% 3%;
+    width: 100%;
+    z-index: 1;
+}
+.navbar-index{
+    position: absolute;
+}
+.navbar-brand{
+    font-family: 'EB Garamond', serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+
+/* Explore Screen */
+
+.bg-image{
+    text-align: center;
+}
+.bg-image img{
+    opacity: 60%;
+    height: 80%;
+    background-image: absolute;
+}
+.explore-section{
+    font-family: 'Rubik', sans-serif;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.663);
+    padding: 20px;
+    border-radius: 5% / 15%;
+}
+.explore-text{
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 2px;
+}
+.explore-button{
+    padding: 10px 100px;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+
+/* Genres */
+
+.genre{
+    padding: 1.5%;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+#genres{
+    margin-top: 200px;
+    margin: 200px 150px 100px;
+}
+.section-heading{
+    margin-bottom: 50px;
+}
+.genre img{
+    width: 100%;
+}
+.genre-header{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+
+/* Footer */
+
+.social-icon{
+    margin: 20px 10px;
+}
+footer{
+    background-color: #E8F9FD;
+    padding: 3% 5%;
+}
+footer p{
+    margin-top: 20px;
+}
+
+
+/* Choosing Screen */
+
+.book-screen{
+    margin-bottom: 50px;
+}
+.book-image{
+    width: 70%;
+    border-radius: 8px;
+    box-shadow: 10px 10px 5px #ccc;
+}
+.like{
+    width: 60%;
+    padding: 25% 0 0;
+    /* transform: rotate(15deg); */
+}
+.hate{
+    width: 50%;
+    padding: 30% 0 0;
+    /* transform: rotate(-10deg); */
+}
+.like:hover{
+    padding: 15% 0 0;
+    width: 80%;
+}
+.hate:hover{
+    padding: 20% 0 0;
+    width: 65%;
+}
