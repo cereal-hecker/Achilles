@@ -41,14 +41,13 @@
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    color: #0a212c;
-    /* background-color: rgba(255, 255, 255, 0.663); */
     padding: 20px;
     border-radius: 5% / 15%;
 }
 .explore-text{
     font-family: 'Montserrat', sans-serif;
     font-size: 3.5rem;
+    color: #0a212c;
     font-weight: 900;
     padding: 2px;
     text-transform: capitalize;
@@ -193,15 +192,43 @@ footer p{
 
 /* Genre Pages*/
 
-    #romance, #romance #footer{
-        background-color: #F4EEED;
+#romance, #romance #footer{
+    background-color: #F4EEED;
+}
+#scifi, #scifi #footer{
+    background-color: #F1F7E7;
+}
+#horror, #horror #footer{
+    background-color: #EDEDED;
+}
+#fantasy, #fantasy #footer{
+    background-color: #FDFCE5;
+}
+
+
+@media screen and (max-width: 1245px) {
+    .explore-text{
+        font-size: 3rem;
     }
-    #scifi, #scifi #footer{
-        background-color: #F1F7E7;
+}
+
+@media screen and (max-width: 1079px) {
+    .explore-text{
+        font-size: 3rem;
     }
-    #horror, #horror #footer{
-        background-color: #EDEDED;
+}
+
+@media screen and (max-width: 972px) {
+    .explore-text{
+        font-size: 2.5rem;
     }
-    #fantasy, #fantasy #footer{
-        background-color: #FDFCE5;
+}
+
+@media screen and (max-width: 920px) {
+    .explore-text{
+        font-size: 2rem;
     }
+    .explore-button{
+        font-size: 2rem;
+    }
+}
