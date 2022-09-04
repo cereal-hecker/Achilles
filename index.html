@@ -16,25 +16,33 @@
     <div class="container-fluid p-0">
 
       <!-- Nav Bar -->
-        <nav class="navbar navbar-index navbar-expand-lg navbar-light">
-          <a class="navbar-brand" href="">achilles</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="#genres">About Us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#cta">Download</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#footer">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
+      <nav class="navbar navbar-index navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="index.html">achilles</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Genres
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="fantasy.html">Fantasy</a>
+                <a class="dropdown-item" href="romance.html">Romance</a>
+                <a class="dropdown-item" href="scifi.html">Sci-Fi</a>
+                <a class="dropdown-item" href="horror.html">Horror</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
 
       <!-- Start Image -->
       <div class="bg-image">
@@ -57,33 +65,33 @@
         <h2 class="section-heading">
           GENRES
         </h2>
-        <div class="row genre-row">
-          <div class="col-md-3 genre">
-            <a href="" type="button" class="btn btn-outline-warning text-center">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-xl-4 g-3 genre-row">
+          <div class="col genre" id="fantasy">
+            <a href="fantasy.html" type="button" class="btn btn-outline-warning text-center">
               <h3 class="genre-header text-center">
                 FANTASY
               </h3>
             <img src="images/Coven-bro.svg" alt="">
           </a>
           </div>
-          <div class="col-md-3 genre">
-            <a href="" type="button" class="btn btn-outline-danger text-center">
+          <div class="col genre" id="romance">
+            <a href="romance.html" type="button" class="btn btn-outline-danger text-center">
               <h3 class="genre-header text-center">
                 ROMANCE
               </h3>
             <img src="images/Night date-amico.svg" alt="">
           </a>
           </div>
-          <div class="col-md-3 genre text-center">
-            <a href="" type="button" class="btn btn-outline-success text-center">
+          <div class="col genre" id="scifi">
+            <a href="scifi.html" type="button" class="btn btn-outline-success text-center">
               <h3 class="genre-header text-center">
                 SCI-FI
               </h3>
             <img src="images/Alien science-amico.svg" alt="">
           </a>
           </div>
-          <div class="col-md-3 genre text-center">
-            <a href="" type="button" class="btn btn-outline-dark text-center">
+          <div class="col genre" id="horror">
+            <a href="horror.html" type="button" class="btn btn-outline-dark text-center">
               <h3 class="genre-header text-center">
                 HORROR
               </h3>
@@ -101,10 +109,17 @@
         <i type="button"class="social-icon fa-brands fa-facebook-f"></i>
         <i type="button"class="social-icon fa-brands fa-instagram"></i>
         <i type="button"class="social-icon fa-solid fa-envelope"></i>
-        <p class="navbar-brand">achilles</p>
+        <br>
+        <a class="navbar-brand" href="">achilles</a>
       </div>
     </footer>
-
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  
+    <script src="index.js" charset="utf-8"></script>
 
 </body>
 </html>
