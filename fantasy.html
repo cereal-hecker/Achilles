@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Achilles</title>
+    <link rel="icon" href="favicon/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/22902d9327.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body  id="fantasy">
+
+    <div class="container-fluid p-0">
+      
+      <!-- Nav Bar -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand" href="index.html">achilles</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Genres
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="fantasy.html">Fantasy</a>
+                  <a class="dropdown-item" href="romance.html">Romance</a>
+                  <a class="dropdown-item" href="scifi.html">Sci-Fi</a>
+                  <a class="dropdown-item" href="horror.html">Horror</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+    </div>
+
+    <!-- Genres -->
+    <div class="book-screen container-fluid">
+        <div class="row text-center">
+            <div class="col-4 hate-col">
+                <img type="button" class="hate interest-icon" id="hate" src="images/cross.png" alt="">
+            </div>
+            <!-- <div class="col-4 p-0">
+                <img class="book-image swiped" src="images/romance/romance1.jpg" alt="">
+            </div> -->
+            <div class="col-4 p-0">
+                <img class="book-image" src="images/fantasy/fantasy1.jpg" alt="">
+            </div>
+            <div class="col-4 like-col">
+                <img type="button" class="like interest-icon" id="like" src="images/heart.png" alt="">
+            </div>
+        </div>
+    </div>
+    
+    <!-- POPUP - It's a match! -->
+    <div id="overlay"></div>
+    <div class="popup match-popup">
+        <div type="button" class="close-popup close-match-popup">
+            <i class="fa-solid fa-xmark"></i>
+        </div>
+        <div class="text-center">
+            <h3 class="section-heading m-10">It's a Match!</h3>
+            <p class="popup-text">
+                Check your mail for contact details of your book-omrade
+            </p>
+        </div>
+    </div>
+
+    <div class="popup premium-popup">
+        <div type="button" class="close-popup close-premium-popup">
+            <i class="fa-solid fa-xmark"></i>
+        </div>
+        <div class="text-center">
+            <h3 class="section-heading m-10">Buy Premium!</h3>
+            <p class="premium-text">
+                ₹200/year
+            </p>
+            <img class="qrcode" src="images/qrcode.jpeg" alt="">
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center" id="footer">
+      <div class="container-fluid">
+        <i type="button" class="social-icon fa-brands fa-twitter"></i>
+        <i type="button"class="social-icon fa-brands fa-facebook-f"></i>
+        <i type="button"class="social-icon fa-brands fa-instagram"></i>
+        <i type="button"class="social-icon fa-solid fa-envelope"></i>
+        <br>
+        <a class="navbar-brand" href="index.html">achilles</a>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>  
+    <script src="index.js" charset="utf-8"></script>
+
+</body>
+</html>
