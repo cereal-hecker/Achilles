@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&family=Montserrat&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=EB+Garamond:ital@1&family=Montserrat&family=Rubik&display=swap');
 
 
 .section-heading{
@@ -31,32 +31,33 @@
     text-align: center;
 }
 .bg-image img{
-    opacity: 60%;
+    opacity: 40%;
     height: 80%;
     background-image: absolute;
 }
 .explore-section{
-    font-family: 'Rubik', sans-serif;
     position: absolute;
     top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.663);
+    color: #0a212c;
+    /* background-color: rgba(255, 255, 255, 0.663); */
     padding: 20px;
     border-radius: 5% / 15%;
 }
 .explore-text{
-    font-size: 2.5rem;
-    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 900;
     padding: 2px;
+    text-transform: capitalize;
 }
 .explore-button{
     padding: 10px 100px;
-    font-size: 1.5rem;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 800;
-    font-size: 2rem;
+    font-weight: 900;
+    font-size: 2.5rem;
 }
 
 
@@ -142,17 +143,17 @@ footer p{
 /* POPUP - It's a match!  */
 
 #overlay{
-    position: fixed; /* Sit on top of the page content */
+    position: fixed;
     display: none;
-    width: 100%; /* Full width (cover the whole page) */
-    height: 100%; /* Full height (cover the whole page) */
+    width: 100%;
+    height: 100%;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
-    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
-    cursor: pointer; /* Add a pointer on hover */
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
   }
 
 .popup{
@@ -177,7 +178,7 @@ footer p{
     font-weight: 600;
     font-size: 2rem;
 }
-div.close-btn {
+.close-match-popup, .close-premium-popup{
     position: fixed;
     top: 0px !important;
     left: 0px !important;
@@ -190,18 +191,17 @@ div.close-btn {
     width: 40%;
 }
 
-
 /* Genre Pages*/
 
-#romance, #romance #footer{
-    background-color: #F4EEED;
-}
-#scifi, #scifi #footer{
-    background-color: #F1F7E7;
-}
-#horror, #horror #footer{
-    background-color: #EDEDED;
-}
-#fantasy, #fantasy #footer{
-    background-color: #FDFCE5;
-}
+    #romance, #romance #footer{
+        background-color: #F4EEED;
+    }
+    #scifi, #scifi #footer{
+        background-color: #F1F7E7;
+    }
+    #horror, #horror #footer{
+        background-color: #EDEDED;
+    }
+    #fantasy, #fantasy #footer{
+        background-color: #FDFCE5;
+    }
