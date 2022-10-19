@@ -1,6 +1,7 @@
 # Achilles
 A book exchange service. — [Click to view website](https://cereal-hecker.github.io/Achilles/)
 
+### Ranked in top 15 at the Data Science'22 Hackathon
 ## About
 
 A book exchange service. User can upload their books and browse through a tinder-like interface (wrt genre) and like/hate the books. If it's a match, contact info will be mailed to both of them.
